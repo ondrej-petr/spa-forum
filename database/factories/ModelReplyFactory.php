@@ -11,6 +11,6 @@ $factory->define(App\Model\Reply::class, function (Faker $faker) {
         },
         'user_id' => function () {
             return \App\User::all()->random();
-        },
+        }
     ];
 });

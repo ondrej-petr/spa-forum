@@ -39,6 +39,7 @@ class AuthController extends Controller
         User::create($request->all());
         return $this->login($request);
     }
+
     /**
      * Get the authenticated User.
      *
